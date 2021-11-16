@@ -8,9 +8,6 @@ let totalEmpHrs = 0;
 let totalWorkingDays = 0;
 let empHrs = 0;
 
-function getWorkingHours(empCheck) {
-
-}
 while (totalEmpHrs <= MAX_HRS_IN_MONTH && totalWorkingDays <= NUM_OF_WORKING_DAYS) {
     totalWorkingDays++;
     let empCheck = Math.floor(Math.random() * 10) % 3;
